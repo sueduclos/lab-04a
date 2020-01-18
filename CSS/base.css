@@ -1,0 +1,30 @@
+/* mobile first */
+  body {
+    /* background-color: lightslategray; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  header {
+    max-width: 480px;
+    margin: auto;
+  }
+
+/* desktop view  */
+@media (min-width: 768px) {
+
+  body {
+    margin: 15px auto;
+    max-width: 960px;
+    text-align: center;
+  }
+
+  header {
+    width: 960px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    line-height: 100px;
+  }
+}

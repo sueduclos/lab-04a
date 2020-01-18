@@ -1,0 +1,15 @@
+/* mobile first */
+@media (max-width:767px) {
+  
+  header, article, div, footer {
+    background-color: lightslategray;
+  }
+}
+
+/* desktop view  */
+@media (min-width: 768px) {
+
+  header, article, div, footer {
+    background-color: darkseagreen;
+  }
+}
