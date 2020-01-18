@@ -1,15 +1,18 @@
 /* mobile first */
+@media (max-width: 767px) {
+
   body {
     /* background-color: lightslategray; */
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
   }
-
+  
   header {
     max-width: 480px;
     margin: auto;
   }
+}
 
 /* desktop view  */
 @media (min-width: 768px) {
